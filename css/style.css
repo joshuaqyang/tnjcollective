@@ -1,0 +1,62 @@
+
+span {
+  border-bottom: 3px solid #FC7360;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+span:hover {
+  background: #FAE5E0;
+}
+
+
+/*New UI for tooltips*/
+#tooltip
+{
+    text-align: center;
+    color: #fff;
+    background: #36374C;
+    position: absolute;
+    z-index: 100;
+    padding: 10px;
+    border-radius: 3px;
+    line-height: 1.8;
+    font-size: 1rem;
+    font-family: Merriweather;
+    width: auto;
+}
+
+    #tooltip:after
+    {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #36374C;
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -10px;
+        margin-left: -10px;
+    }
+
+        #tooltip.top:after
+        {
+            border-top-color: transparent;
+            border-bottom: 10px solid #36374C;
+            top: -20px;
+            bottom: auto;
+        }
+
+        #tooltip.left:after
+        {
+            left: 10px;
+            margin: 0;
+        }
+
+        #tooltip.right:after
+        {
+            right: 10px;
+            left: auto;
+            margin: 0;
+        }
