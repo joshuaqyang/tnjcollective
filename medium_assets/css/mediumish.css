@@ -206,7 +206,7 @@ span.post-name a,span.post-read-more a:hover {
 	font-weight:700;
 	margin-bottom:1rem;
 	color: #36374C;
-
+	line-height: 1.2;
 }
 
 .subtitle{
@@ -214,7 +214,7 @@ span.post-name a,span.post-read-more a:hover {
 	margin-bottom:1rem;
 	display: inline-block;
 	color: #36374C;
-
+	line-height: 1.6;
 }
 
 .footer {
